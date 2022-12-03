@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "muli" sans-serif;
+    background: linear-gradient(to left, coral, gold);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+}
