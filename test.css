@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(179, 179, 225); */
+}
+
+#grand-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#parent-container {
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-line {
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    margin-block: 60px 8px;
+    /* margin-top: px; */
+}
